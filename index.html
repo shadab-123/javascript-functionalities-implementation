@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grading system</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="table" style="display:none;" id="tableid">
+        <h1>table</h1>
+        <form method="POST" name="sample">
+            <br>
+           Roll No. <input type="number" name="rollno">
+           Name <input type="text" name="name">
+           <input type="button" name="add" value="add data" onclick="addstudent();"><hr>
+
+           <table id="tbl" class="table" border="1">
+            <thead>
+                <th>roll no</th>
+                <th>name</th>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+           </table>
+
+        </form>
+    </div>
+    <section class="bg">
+    </section>
+    <div class="loading-text">0%
+    </div> 
+    <script src="index.js"></script>   
+</body>
+</html>
